@@ -14,7 +14,7 @@ public class L2022212015_16_Test {
     @Test
     void testLargestNumberWithEmptyArray() {
         int[] nums = new int[]{};
-        assertEquals("", solution.largestNumber(nums));
+        assertEquals("test", solution.largestNumber(nums));
     }
 
     /**
