@@ -2,6 +2,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class L2022212015_16_Test {
     /**
+     *  a small modification
      *  测试设计原则：等价类划分和边界值分析原则。
      * 等价类划分将输入域划分为若干部分（等价类），这样可以减少需要编写的测试用例数量。
      * 边界值分析关注的是输入域的边界值，它认为错误更容易出现在输入范围的边界上，特别关注最小值、最大值、零值等情况。
