@@ -27,4 +27,4 @@ jobs:
       run: cd OSSDP-Lab2 && pwd && ls
 
     - name: Run tests with Maven
-      run: mvn -B test --file ./pom.xml
+      run: mvn -B test --file OSSDP-Lab2/pom.xml
