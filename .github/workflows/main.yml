@@ -24,7 +24,7 @@ jobs:
         restore-keys: ${{ runner.os }}-m2
 
     - name: Navigate to project directory
-      run: cd Lab4-202212015
+      run: cd OSSDP-Lab2
 
     - name: Run tests with Maven
       run: mvn -B test --file pom.xml # 这里具体到自己的pom.xml文件位置
